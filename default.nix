@@ -20,4 +20,9 @@ in
     source = link ./tmux.conf;
   };
 
+  home.file.".config/tmux/conf.d" = {
+    enable = true;
+    source = link ./conf.d;
+  };
+
 }
